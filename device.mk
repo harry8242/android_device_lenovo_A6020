@@ -16,10 +16,10 @@
 #
 
 # Overlay
-DEVICE_PACKAGE_OVERLAYS += device/lenovo/A6020/overlay
+DEVICE_PACKAGE_OVERLAYS += device/lenovo/a6020/overlay
 
 # Include package config fragments
 include $(LOCAL_PATH)/product/*.mk
 
-$(call inherit-product, vendor/lenovo/A6020/A6020-vendor.mk)
+$(call inherit-product, vendor/lenovo/a6020/a6020-vendor.mk)
 

@@ -12,10 +12,10 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-$(call inherit-product, device/lenovo/A6020/full_A6020.mk)
+$(call inherit-product, device/lenovo/a6020/full_a6020.mk)
 
-# Inherit some common LineageOS stuff.
-$(call inherit-product-if-exists, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common MK stuff.
+$(call inherit-product-if-exists, vendor/mk/config/common_full_phone.mk)
 
 # Boot animation
 TARGET_SCREEN_WIDTH := 1080
@@ -23,8 +23,5 @@ TARGET_SCREEN_HEIGHT := 1920
 TARGET_BOOTANIMATION_HALF_RES := true
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := A6020
-PRODUCT_NAME := lineage_A6020
-
-# Unofficial build ID
-TARGET_UNOFFICIAL_BUILD_ID := HYPER
+PRODUCT_DEVICE := a6020
+PRODUCT_NAME := mk_a6020

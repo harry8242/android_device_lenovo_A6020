@@ -1,6 +1,6 @@
 #!/bin/bash
 VENDOR=lenovo
-DEVICE=A6020
+DEVICE=a6020
 
 OUTDIR=vendor/$VENDOR/$DEVICE
 MAKEFILE=../../../$OUTDIR/$DEVICE-vendor-blobs.mk
